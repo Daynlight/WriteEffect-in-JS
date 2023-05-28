@@ -2,7 +2,7 @@ var timeSpace = 300;
 var loadState = 1;
 var CountText = 0;
 
-function load()
+function loop()
 {
     switch(loadState)
     {
@@ -30,4 +30,4 @@ function Write(Div,Text)
     }
 }
 
-setInterval(load,timeSpace);
+setInterval(loop,timeSpace);
