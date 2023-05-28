@@ -4,7 +4,7 @@
 
 <code><script src="WriteEffect.js"></script></code>
 
-3. Add Text And Div ID to Loop Function
+2. Add Text And Div ID to Loop Function
 
 <code>function loop()
 {
