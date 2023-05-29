@@ -14,7 +14,7 @@ case 1:
     Write("Write","Hello<br> World");
     break;
 case 2:
-    Write("Write1","Pis Suck")
+    Write("Write1","Second Text")
     break;
 }
 }</code>
