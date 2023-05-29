@@ -1,4 +1,4 @@
-var timeSpace = 300;
+var Freq = 3;
 var loadState = 1;
 var CountText = 0;
 
@@ -30,4 +30,4 @@ function Write(Div,Text)
     }
 }
 
-setInterval(loop,timeSpace);
+setInterval(loop,(1000/Freq));
