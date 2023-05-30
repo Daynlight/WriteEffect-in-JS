@@ -20,7 +20,7 @@ function Write(Div,Text)
     var TextLength = Text.length;
     document.getElementById(Div).innerHTML=Text.substring(0,CountText);
 
-    if(Text.substring(CountText,CountText+4)=="<br>") CountText +=4;
+    if(Text.substring(CountText,CountText+4)=="<br>") CountText +=3;
     CountText++;
     if(CountText>TextLength)
     {
